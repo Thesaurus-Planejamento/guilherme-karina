@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard — Aline e Marcos</title>
+<title>Dashboard — Painel Financeiro Anual</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
@@ -81,7 +81,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
   </div>
   <div class="header-right">
     <span class="year-badge">2026</span>
-    <span class="updated">Atualizado: 12/05/2026</span>
+    <span class="updated">Atualizado: 14/05/2026</span>
   </div>
 </div>
 
@@ -113,12 +113,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 <div class="metrics">
   <div class="metric danger">
     <label>Total gasto (ano)</label>
-    <div class="value">R$ 315.1k</div>
-    <div class="sub">Jan–Mar 2026</div>
+    <div class="value">R$ 384.9k</div>
+    <div class="sub">Jan–Mai 2026</div>
   </div>
   <div class="metric info">
     <label>Média mensal</label>
-    <div class="value">R$ 105.0k</div>
+    <div class="value">R$ 77.0k</div>
     <div class="sub">Limite: R$ 5.0k</div>
   </div>
   <div class="metric">
@@ -128,7 +128,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
   </div>
   <div class="metric danger">
     <label>Meses acima do limite</label>
-    <div class="value">3</div>
+    <div class="value">5</div>
     <div class="sub">Top cat: Dívidas</div>
   </div>
 </div>
@@ -145,7 +145,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <div class="donut-wrap" style="height:180px">
         <canvas id="donutChart"></canvas>
         <div class="donut-center">
-          <span class="big">R$ 315.1k</span>
+          <span class="big">R$ 384.9k</span>
           <span class="small">total</span>
         </div>
       </div>
@@ -161,64 +161,64 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
       <div style="width:100.0%;height:100%;background:#5b8dee;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 58.4k</span>
-    <span style="font-family:monospace;font-size:11px;color:#5b8dee;min-width:36px;text-align:right">18.5%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 59.3k</span>
+    <span style="font-family:monospace;font-size:11px;color:#5b8dee;min-width:36px;text-align:right">15.4%</span>
   </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
     <div style="width:8px;height:8px;border-radius:50%;background:#9b7fe8;flex-shrink:0"></div>
     <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Habitação</span>
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:66.4%;height:100%;background:#9b7fe8;border-radius:2px"></div>
+      <div style="width:93.2%;height:100%;background:#9b7fe8;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 38.8k</span>
-    <span style="font-family:monospace;font-size:11px;color:#9b7fe8;min-width:36px;text-align:right">12.3%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 55.3k</span>
+    <span style="font-family:monospace;font-size:11px;color:#9b7fe8;min-width:36px;text-align:right">14.4%</span>
   </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
     <div style="width:8px;height:8px;border-radius:50%;background:#c9a96e;flex-shrink:0"></div>
     <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Educação</span>
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:60.6%;height:100%;background:#c9a96e;border-radius:2px"></div>
+      <div style="width:79.6%;height:100%;background:#c9a96e;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 35.4k</span>
-    <span style="font-family:monospace;font-size:11px;color:#c9a96e;min-width:36px;text-align:right">11.2%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 47.2k</span>
+    <span style="font-family:monospace;font-size:11px;color:#c9a96e;min-width:36px;text-align:right">12.3%</span>
   </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
     <div style="width:8px;height:8px;border-radius:50%;background:#4caf82;flex-shrink:0"></div>
-    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Compras</span>
-    <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:35.4%;height:100%;background:#4caf82;border-radius:2px"></div>
-    </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 20.7k</span>
-    <span style="font-family:monospace;font-size:11px;color:#4caf82;min-width:36px;text-align:right">6.6%</span>
-  </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-    <div style="width:8px;height:8px;border-radius:50%;background:#e05c5c;flex-shrink:0"></div>
     <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Saúde</span>
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:31.2%;height:100%;background:#e05c5c;border-radius:2px"></div>
+      <div style="width:46.7%;height:100%;background:#4caf82;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 18.2k</span>
-    <span style="font-family:monospace;font-size:11px;color:#e05c5c;min-width:36px;text-align:right">5.8%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 27.7k</span>
+    <span style="font-family:monospace;font-size:11px;color:#4caf82;min-width:36px;text-align:right">7.2%</span>
+  </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+    <div style="width:8px;height:8px;border-radius:50%;background:#e05c5c;flex-shrink:0"></div>
+    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Compras</span>
+    <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
+      <div style="width:43.8%;height:100%;background:#e05c5c;border-radius:2px"></div>
+    </div>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 26.0k</span>
+    <span style="font-family:monospace;font-size:11px;color:#e05c5c;min-width:36px;text-align:right">6.7%</span>
   </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
     <div style="width:8px;height:8px;border-radius:50%;background:#f0a05a;flex-shrink:0"></div>
-    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Restaurante</span>
-    <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:28.2%;height:100%;background:#f0a05a;border-radius:2px"></div>
-    </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 16.5k</span>
-    <span style="font-family:monospace;font-size:11px;color:#f0a05a;min-width:36px;text-align:right">5.2%</span>
-  </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-    <div style="width:8px;height:8px;border-radius:50%;background:#7ecac5;flex-shrink:0"></div>
     <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Vestuário</span>
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:27.6%;height:100%;background:#7ecac5;border-radius:2px"></div>
+      <div style="width:29.3%;height:100%;background:#f0a05a;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 16.1k</span>
-    <span style="font-family:monospace;font-size:11px;color:#7ecac5;min-width:36px;text-align:right">5.1%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 17.4k</span>
+    <span style="font-family:monospace;font-size:11px;color:#f0a05a;min-width:36px;text-align:right">4.5%</span>
+  </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+    <div style="width:8px;height:8px;border-radius:50%;background:#7ecac5;flex-shrink:0"></div>
+    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Restaurante</span>
+    <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
+      <div style="width:29.3%;height:100%;background:#7ecac5;border-radius:2px"></div>
+    </div>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 17.4k</span>
+    <span style="font-family:monospace;font-size:11px;color:#7ecac5;min-width:36px;text-align:right">4.5%</span>
   </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
     <div style="width:8px;height:8px;border-radius:50%;background:#c45b8a;flex-shrink:0"></div>
-    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Despesas de trabalho</span>
+    <span style="flex:1;font-size:13px;color:#f0ede8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Mercado</span>
     <div style="flex:2;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden">
-      <div style="width:21.7%;height:100%;background:#c45b8a;border-radius:2px"></div>
+      <div style="width:26.5%;height:100%;background:#c45b8a;border-radius:2px"></div>
     </div>
-    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 12.7k</span>
-    <span style="font-family:monospace;font-size:11px;color:#c45b8a;min-width:36px;text-align:right">4.0%</span>
+    <span style="font-family:monospace;font-size:12px;color:#7a7875;min-width:55px;text-align:right">R$ 15.7k</span>
+    <span style="font-family:monospace;font-size:11px;color:#c45b8a;min-width:36px;text-align:right">4.1%</span>
   </div>
     </div>
     <div class="card">
@@ -226,47 +226,47 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Jun/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 12.103,37</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 24.285,91</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• SOFIA ANAYA STUDIO - Parcela 1/8 — R$ 372,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• EC*STANLEY1913 - Parcela 1/4 — R$ 92,25</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 37 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• PRI*PRIVALIA 69406970 6/10 — R$ 231,93</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• HOTELCOM72066382153963 8/12 — R$ 663,75</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• WENDELLISAACE 7/10 — R$ 228,34</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 75 outros</div>
       </div><div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Jul/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 4.713,17</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 13.592,98</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• SOFIA ANAYA STUDIO - Parcela 1/8 — R$ 372,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• GLOBO GLOBOPLAY - Parcela 6/12 — R$ 14,90</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 18 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• PRI*PRIVALIA 69406970 6/10 — R$ 231,93</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• HOTELCOM72066382153963 8/12 — R$ 663,75</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• WENDELLISAACE 7/10 — R$ 228,34</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 41 outros</div>
       </div><div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Ago/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 4.258,65</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 11.049,19</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• SOFIA ANAYA STUDIO - Parcela 1/8 — R$ 372,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• GLOBO GLOBOPLAY - Parcela 6/12 — R$ 14,90</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 16 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• PRI*PRIVALIA 69406970 6/10 — R$ 231,93</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• HOTELCOM72066382153963 8/12 — R$ 663,75</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• WENDELLISAACE 7/10 — R$ 228,34</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 33 outros</div>
       </div><div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Set/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 3.676,07</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 9.982,88</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• SOFIA ANAYA STUDIO - Parcela 1/8 — R$ 372,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• GLOBO GLOBOPLAY - Parcela 6/12 — R$ 14,90</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 13 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• PRI*PRIVALIA 69406970 6/10 — R$ 231,93</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• HOTELCOM72066382153963 8/12 — R$ 663,75</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• IG*FESTOUEVENTO 2/6 — R$ 494,66</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 27 outros</div>
       </div><div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Out/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 2.558,63</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 7.210,00</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• SOFIA ANAYA STUDIO - Parcela 1/8 — R$ 372,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• ZP*GRINGO - Parcela 3/12 — R$ 206,87</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 7 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL 3/10 — R$ 500,00</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• HOTEIS.COM 5/10 — R$ 106,98</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• MP Consulthesaurus 1/10 — R$ 2.350,00</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 16 outros</div>
       </div><div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
           <span style="font-size:12px;color:#c9a96e;font-family:monospace">Nov/2026</span>
-          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 1.578,21</span>
+          <span style="font-size:12px;color:#f0ede8;font-family:monospace">R$ 5.583,12</span>
         </div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL - Parcela 1/10 — R$ 457,50</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• ZP*GRINGO - Parcela 3/12 — R$ 206,87</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• ZP*GRINGO - Parcela 1/12 — R$ 206,97</div>
-        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 2 outros</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">• AVELL *AVELL 3/10 — R$ 500,00</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• MP Consulthesaurus 1/10 — R$ 2.350,00</div><div style="font-size:11px;color:#7a7875;padding-left:8px">• ZP Alig Invisalign BR 2/12 — R$ 373,58</div>
+        <div style="font-size:11px;color:#7a7875;padding-left:8px">+ 8 outros</div>
       </div>
-      <div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font-size:12px"><span style="color:var(--muted);font-family:monospace">Total comprometido</span><span style="color:var(--accent);font-family:monospace">R$ 28.888,10</span></div>
+      <div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font-size:12px"><span style="color:var(--muted);font-family:monospace">Total comprometido</span><span style="color:var(--accent);font-family:monospace">R$ 71.704,08</span></div>
     </div>
   </div>
 </div>
@@ -283,14 +283,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 <script>
 const mesesAbrev = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
 const mesesFull  = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
-const gastosArr  = [152023.64,85308.79,77792.89,0,0,0,0,0,0,0,0,0];
-const limitesArr = [7826.85,7826.85,7000,5000,5000,5000,5000,5000,5000,5000,5000,5000];
-const dadosMes   = {"0":{"total":152023.64,"limite":7826.85,"catMes":[{"nome":"Dívidas","valor":46066.7,"cor":"#5b8dee"},{"nome":"Habitação","valor":20239.76,"cor":"#9b7fe8"},{"nome":"Despesas de trabalho","valor":11882.81,"cor":"#c9a96e"},{"nome":"Educação","valor":10764.6,"cor":"#4caf82"},{"nome":"Saúde","valor":9222.73,"cor":"#e05c5c"},{"nome":"Compras","valor":6601.93,"cor":"#f0a05a"},{"nome":"Mercado","valor":4866.59,"cor":"#7ecac5"},{"nome":"Lazer","valor":4654.33,"cor":"#c45b8a"},{"nome":"Investimentos","valor":4551.98,"cor":"#e8d5b0"},{"nome":"Restaurante","valor":4463.85,"cor":"#555"},{"nome":"Vestuário","valor":4212.14,"cor":"#3dffe3"},{"nome":"Cuidados pessoais","valor":2977.4,"cor":"#ffc53d"},{"nome":"Ifood","valor":2801.17,"cor":"#ab4aba"},{"nome":"Seguro","valor":2792.7,"cor":"#ff7800"},{"nome":"Carro","valor":2780.04,"cor":"#12a594"},{"nome":"Viagem","valor":2395.46,"cor":"#0091ff"},{"nome":"Farmácia","valor":2308.48,"cor":"#6647f0"},{"nome":"Outros","valor":2200,"cor":"#f76808"},{"nome":"Combustível","valor":1436.58,"cor":"#5b8dee"},{"nome":"Aplicativos/sites","valor":1421.67,"cor":"#9b7fe8"},{"nome":"Não categorizado","valor":1109.36,"cor":"#c9a96e"},{"nome":"Telecomunicação","valor":815.61,"cor":"#4caf82"},{"nome":"Alimentação","valor":631.8,"cor":"#e05c5c"},{"nome":"Assinaturas","valor":428.38,"cor":"#f0a05a"},{"nome":"Uber","valor":173.5,"cor":"#7ecac5"},{"nome":"Estacionamento","valor":130.32,"cor":"#c45b8a"},{"nome":"Pet","valor":93.75,"cor":"#e8d5b0"}]},"1":{"total":85308.79,"limite":7826.85,"catMes":[{"nome":"Educação","valor":13225.35,"cor":"#5b8dee"},{"nome":"Habitação","valor":13150.31,"cor":"#9b7fe8"},{"nome":"Dívidas","valor":8386.6,"cor":"#c9a96e"},{"nome":"Restaurante","valor":6333.68,"cor":"#4caf82"},{"nome":"Vestuário","valor":5910.7,"cor":"#e05c5c"},{"nome":"Compras","valor":5332.74,"cor":"#f0a05a"},{"nome":"Viagem","valor":3759.4,"cor":"#7ecac5"},{"nome":"Mercado","valor":3692.45,"cor":"#c45b8a"},{"nome":"Cuidados pessoais","valor":3593.3,"cor":"#e8d5b0"},{"nome":"Lazer","valor":3350.7,"cor":"#555"},{"nome":"Seguro","valor":2488.46,"cor":"#3dffe3"},{"nome":"Não categorizado","valor":2413.7,"cor":"#ffc53d"},{"nome":"Combustível","valor":2230.01,"cor":"#ab4aba"},{"nome":"Saúde","valor":1700,"cor":"#ff7800"},{"nome":"Farmácia","valor":1604.67,"cor":"#12a594"},{"nome":"Ifood","valor":1378.62,"cor":"#0091ff"},{"nome":"Carro","valor":1273.8,"cor":"#6647f0"},{"nome":"Presentes","valor":878.99,"cor":"#f76808"},{"nome":"Telecomunicação","valor":831.73,"cor":"#5b8dee"},{"nome":"Despesas de trabalho","valor":827,"cor":"#9b7fe8"},{"nome":"Estacionamento","valor":626.68,"cor":"#c9a96e"},{"nome":"Transporte","valor":550.63,"cor":"#4caf82"},{"nome":"Pet","valor":530.95,"cor":"#e05c5c"},{"nome":"Aplicativos/sites","valor":518.84,"cor":"#f0a05a"},{"nome":"Assinaturas","valor":353,"cor":"#7ecac5"},{"nome":"Alimentação","valor":314,"cor":"#c45b8a"},{"nome":"Uber","valor":52.48,"cor":"#e8d5b0"}]},"2":{"total":77792.89,"limite":7000,"catMes":[{"nome":"Educação","valor":11444.25,"cor":"#5b8dee"},{"nome":"Compras","valor":8776.16,"cor":"#9b7fe8"},{"nome":"Saúde","valor":7291.7,"cor":"#c9a96e"},{"nome":"Vestuário","valor":6019.59,"cor":"#4caf82"},{"nome":"Restaurante","valor":5709.53,"cor":"#e05c5c"},{"nome":"Habitação","valor":5388.33,"cor":"#f0a05a"},{"nome":"Viagem","valor":4762.51,"cor":"#7ecac5"},{"nome":"Mercado","valor":4060.34,"cor":"#c45b8a"},{"nome":"Dívidas","valor":3983.57,"cor":"#e8d5b0"},{"nome":"Farmácia","valor":3494.23,"cor":"#555"},{"nome":"Não categorizado","valor":2733.06,"cor":"#3dffe3"},{"nome":"Cuidados pessoais","valor":2554,"cor":"#ffc53d"},{"nome":"Seguro","valor":2221.8,"cor":"#ab4aba"},{"nome":"Carro","valor":1976.52,"cor":"#ff7800"},{"nome":"Despesas Financeiras ","valor":1690.73,"cor":"#12a594"},{"nome":"Lazer","valor":1492.52,"cor":"#0091ff"},{"nome":"Combustível","valor":1325.9,"cor":"#6647f0"},{"nome":"Telecomunicação","valor":899.38,"cor":"#f76808"},{"nome":"Ifood","valor":886.03,"cor":"#5b8dee"},{"nome":"Aplicativos/sites","valor":329.9,"cor":"#9b7fe8"},{"nome":"Assinaturas","valor":233.9,"cor":"#c9a96e"},{"nome":"Alimentação","valor":200,"cor":"#4caf82"},{"nome":"Pet","valor":116.63,"cor":"#e05c5c"},{"nome":"Transporte","valor":99.99,"cor":"#f0a05a"},{"nome":"Uber","valor":46.97,"cor":"#7ecac5"},{"nome":"Taxas","valor":32.53,"cor":"#c45b8a"},{"nome":"Estacionamento","valor":22.82,"cor":"#e8d5b0"}]}};
-const catLabels  = ["Dívidas","Habitação","Educação","Compras","Saúde","Restaurante","Vestuário","Despesas de trabalho","Mercado","Viagem"];
-const catValues  = [58436.87,38778.4,35434.2,20710.83,18214.43,16507.06,16142.43,12709.81,12619.38,10917.37];
+const gastosArr  = [152023.64,85308.79,77792.89,41531.59,28261.69,0,0,0,0,0,0,0];
+const limitesArr = [7826.85,7826.85,7000,7826.85,5000,5000,5000,5000,5000,5000,5000,5000];
+const dadosMes   = {"0":{"total":152023.64,"limite":7826.85,"catMes":[{"nome":"Dívidas","valor":46066.7,"cor":"#5b8dee"},{"nome":"Habitação","valor":20239.76,"cor":"#9b7fe8"},{"nome":"Despesas de trabalho","valor":11882.81,"cor":"#c9a96e"},{"nome":"Educação","valor":10764.6,"cor":"#4caf82"},{"nome":"Saúde","valor":9222.73,"cor":"#e05c5c"},{"nome":"Compras","valor":6601.93,"cor":"#f0a05a"},{"nome":"Mercado","valor":4866.59,"cor":"#7ecac5"},{"nome":"Lazer","valor":4654.33,"cor":"#c45b8a"},{"nome":"Investimentos","valor":4551.98,"cor":"#e8d5b0"},{"nome":"Restaurante","valor":4463.85,"cor":"#555"},{"nome":"Vestuário","valor":4212.14,"cor":"#3dffe3"},{"nome":"Cuidados pessoais","valor":2977.4,"cor":"#ffc53d"},{"nome":"Ifood","valor":2801.17,"cor":"#ab4aba"},{"nome":"Seguro","valor":2792.7,"cor":"#ff7800"},{"nome":"Carro","valor":2780.04,"cor":"#12a594"},{"nome":"Viagem","valor":2395.46,"cor":"#0091ff"},{"nome":"Farmácia","valor":2308.48,"cor":"#6647f0"},{"nome":"Outros","valor":2200,"cor":"#f76808"},{"nome":"Combustível","valor":1436.58,"cor":"#5b8dee"},{"nome":"Aplicativos/sites","valor":1421.67,"cor":"#9b7fe8"},{"nome":"Não categorizado","valor":1109.36,"cor":"#c9a96e"},{"nome":"Telecomunicação","valor":815.61,"cor":"#4caf82"},{"nome":"Alimentação","valor":631.8,"cor":"#e05c5c"},{"nome":"Assinaturas","valor":428.38,"cor":"#f0a05a"},{"nome":"Uber","valor":173.5,"cor":"#7ecac5"},{"nome":"Estacionamento","valor":130.32,"cor":"#c45b8a"},{"nome":"Pet","valor":93.75,"cor":"#e8d5b0"}]},"1":{"total":85308.79,"limite":7826.85,"catMes":[{"nome":"Educação","valor":13225.35,"cor":"#5b8dee"},{"nome":"Habitação","valor":13150.31,"cor":"#9b7fe8"},{"nome":"Dívidas","valor":8386.6,"cor":"#c9a96e"},{"nome":"Restaurante","valor":6333.68,"cor":"#4caf82"},{"nome":"Vestuário","valor":5910.7,"cor":"#e05c5c"},{"nome":"Compras","valor":5332.74,"cor":"#f0a05a"},{"nome":"Viagem","valor":3759.4,"cor":"#7ecac5"},{"nome":"Mercado","valor":3692.45,"cor":"#c45b8a"},{"nome":"Cuidados pessoais","valor":3593.3,"cor":"#e8d5b0"},{"nome":"Lazer","valor":3350.7,"cor":"#555"},{"nome":"Seguro","valor":2488.46,"cor":"#3dffe3"},{"nome":"Não categorizado","valor":2413.7,"cor":"#ffc53d"},{"nome":"Combustível","valor":2230.01,"cor":"#ab4aba"},{"nome":"Saúde","valor":1700,"cor":"#ff7800"},{"nome":"Farmácia","valor":1604.67,"cor":"#12a594"},{"nome":"Ifood","valor":1378.62,"cor":"#0091ff"},{"nome":"Carro","valor":1273.8,"cor":"#6647f0"},{"nome":"Presentes","valor":878.99,"cor":"#f76808"},{"nome":"Telecomunicação","valor":831.73,"cor":"#5b8dee"},{"nome":"Despesas de trabalho","valor":827,"cor":"#9b7fe8"},{"nome":"Estacionamento","valor":626.68,"cor":"#c9a96e"},{"nome":"Transporte","valor":550.63,"cor":"#4caf82"},{"nome":"Pet","valor":530.95,"cor":"#e05c5c"},{"nome":"Aplicativos/sites","valor":518.84,"cor":"#f0a05a"},{"nome":"Assinaturas","valor":353,"cor":"#7ecac5"},{"nome":"Alimentação","valor":314,"cor":"#c45b8a"},{"nome":"Uber","valor":52.48,"cor":"#e8d5b0"}]},"2":{"total":77792.89,"limite":7000,"catMes":[{"nome":"Educação","valor":11444.25,"cor":"#5b8dee"},{"nome":"Compras","valor":8776.16,"cor":"#9b7fe8"},{"nome":"Saúde","valor":7291.7,"cor":"#c9a96e"},{"nome":"Vestuário","valor":6019.59,"cor":"#4caf82"},{"nome":"Restaurante","valor":5709.53,"cor":"#e05c5c"},{"nome":"Habitação","valor":5388.33,"cor":"#f0a05a"},{"nome":"Viagem","valor":4762.51,"cor":"#7ecac5"},{"nome":"Mercado","valor":4060.34,"cor":"#c45b8a"},{"nome":"Dívidas","valor":3983.57,"cor":"#e8d5b0"},{"nome":"Farmácia","valor":3494.23,"cor":"#555"},{"nome":"Não categorizado","valor":2733.06,"cor":"#3dffe3"},{"nome":"Cuidados pessoais","valor":2554,"cor":"#ffc53d"},{"nome":"Seguro","valor":2221.8,"cor":"#ab4aba"},{"nome":"Carro","valor":1976.52,"cor":"#ff7800"},{"nome":"Despesas Financeiras ","valor":1690.73,"cor":"#12a594"},{"nome":"Lazer","valor":1492.52,"cor":"#0091ff"},{"nome":"Combustível","valor":1325.9,"cor":"#6647f0"},{"nome":"Telecomunicação","valor":899.38,"cor":"#f76808"},{"nome":"Ifood","valor":886.03,"cor":"#5b8dee"},{"nome":"Aplicativos/sites","valor":329.9,"cor":"#9b7fe8"},{"nome":"Assinaturas","valor":233.9,"cor":"#c9a96e"},{"nome":"Alimentação","valor":200,"cor":"#4caf82"},{"nome":"Pet","valor":116.63,"cor":"#e05c5c"},{"nome":"Transporte","valor":99.99,"cor":"#f0a05a"},{"nome":"Uber","valor":46.97,"cor":"#7ecac5"},{"nome":"Taxas","valor":32.53,"cor":"#c45b8a"},{"nome":"Estacionamento","valor":22.82,"cor":"#e8d5b0"}]},"3":{"total":41531.59,"limite":7826.85,"catMes":[{"nome":"Habitação","valor":16489.16,"cor":"#5b8dee"},{"nome":"Educação","valor":11404.84,"cor":"#9b7fe8"},{"nome":"Saúde","valor":8380,"cor":"#c9a96e"},{"nome":"Cuidados pessoais","valor":1857,"cor":"#4caf82"},{"nome":"Telecomunicação","valor":912.2,"cor":"#e05c5c"},{"nome":"Dívidas","valor":879.85,"cor":"#f0a05a"},{"nome":"Despesas de trabalho","valor":725,"cor":"#7ecac5"},{"nome":"Carro","valor":713.54,"cor":"#c45b8a"},{"nome":"Pet","valor":170,"cor":"#e8d5b0"}]},"4":{"total":28261.69,"limite":5000,"catMes":[{"nome":"Compras","valor":5251.05,"cor":"#5b8dee"},{"nome":"Mercado","valor":3085.64,"cor":"#9b7fe8"},{"nome":"Viagem","valor":2989.07,"cor":"#c9a96e"},{"nome":"Seguro","valor":2569.92,"cor":"#4caf82"},{"nome":"Despesas Financeiras ","valor":2480.41,"cor":"#e05c5c"},{"nome":"Lazer","valor":1684.75,"cor":"#f0a05a"},{"nome":"Farmácia","valor":1536.7,"cor":"#7ecac5"},{"nome":"Assinaturas","valor":1515.7,"cor":"#c45b8a"},{"nome":"Vestuário","valor":1265.12,"cor":"#e8d5b0"},{"nome":"Cuidados pessoais","valor":1230.9,"cor":"#555"},{"nome":"Saúde","valor":1103.57,"cor":"#3dffe3"},{"nome":"Restaurante","valor":887.78,"cor":"#ffc53d"},{"nome":"Ifood","valor":414.69,"cor":"#ab4aba"},{"nome":"Educação","valor":387.7,"cor":"#ff7800"},{"nome":"Combustível","valor":387,"cor":"#12a594"},{"nome":"Alimentação","valor":298.3,"cor":"#0091ff"},{"nome":"Aplicativos/sites","valor":257.87,"cor":"#6647f0"},{"nome":"Não categorizado","valor":228.34,"cor":"#f76808"},{"nome":"Esporte","valor":180.67,"cor":"#5b8dee"},{"nome":"Uber","valor":146.88,"cor":"#9b7fe8"},{"nome":"Doações","valor":139.78,"cor":"#c9a96e"},{"nome":"Pet","valor":118,"cor":"#4caf82"},{"nome":"Estacionamento","valor":58.85,"cor":"#e05c5c"},{"nome":"Outros","valor":43,"cor":"#f0a05a"}]}};
+const catLabels  = ["Dívidas","Habitação","Educação","Saúde","Compras","Vestuário","Restaurante","Mercado","Viagem","Despesas de trabalho"];
+const catValues  = [59316.72,55267.56,47226.74,27698,25961.88,17407.55,17394.84,15705.02,13906.44,13434.81];
 const catCores   = ["#5b8dee","#9b7fe8","#c9a96e","#4caf82","#e05c5c","#f0a05a","#7ecac5","#c45b8a","#e8d5b0","#555"];
 const futuroLabels = ["Jun/2026","Jul/2026","Ago/2026","Set/2026","Out/2026","Nov/2026"];
-const futuroValues = [12103.37,4713.17,4258.65,3676.07,2558.63,1578.21];
+const futuroValues = [24285.91,13592.98,11049.19,9982.88,7210,5583.12];
 
 const fmt  = v => 'R$ ' + parseFloat(v).toLocaleString('pt-BR', {minimumFractionDigits:2});
 const fmtK = v => v >= 1000 ? 'R$ ' + (v/1000).toFixed(1) + 'k' : fmt(v);
